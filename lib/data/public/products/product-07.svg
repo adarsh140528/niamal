@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+    <rect width="800" height="800" fill="#121316"/>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E2E8F0" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#121316" stop-opacity="0"/>
+    </radialGradient>
+    <rect width="800" height="800" fill="url(#bgGlow)"/>
+    
+    <!-- Subtle Grid / Border Frame -->
+    <rect x="24" y="24" width="752" height="752" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    
+    
+      <defs>
+        <linearGradient id="leatherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#1c1c1f"/>
+          <stop offset="100%" stop-color="#0a0a0b"/>
+        </linearGradient>
+      </defs>
+      <!-- Leather Case Silhouette -->
+      <rect x="280" y="160" width="240" height="490" rx="38" fill="url(#leatherGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+      <!-- Camera Island -->
+      <rect x="305" y="185" width="95" height="100" rx="20" fill="#121214" stroke="#E2E8F0" stroke-width="1.5"/>
+      <circle cx="330" cy="210" r="16" fill="#080809" stroke="#333" stroke-width="2"/>
+      <circle cx="375" cy="210" r="16" fill="#080809" stroke="#333" stroke-width="2"/>
+      <circle cx="352" cy="255" r="16" fill="#080809" stroke="#333" stroke-width="2"/>
+      <!-- Embossed Brand -->
+      <text x="400" y="580" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#E2E8F0" letter-spacing="4">NIAMAL</text>
+    
+
+    <!-- Bottom metadata -->
+    <text x="400" y="740" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#5A5957" letter-spacing="4">EDITION 2026 • HANDCRAFTED</text>
+  </svg>

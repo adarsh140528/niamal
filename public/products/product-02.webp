@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+    <rect width="800" height="800" fill="#0A0F1A"/>
+    <radialGradient id="bgGlow_product02webp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0A0F1A" stop-opacity="0"/>
+    </radialGradient>
+    <rect width="800" height="800" fill="url(#bgGlow_product02webp)"/>
+    <rect x="24" y="24" width="752" height="752" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    
+      <defs>
+        <linearGradient id="glassGrad_product02webp" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#1E293B" stop-opacity="0.95"/>
+          <stop offset="50%" stop-color="#0F172A" stop-opacity="0.98"/>
+          <stop offset="100%" stop-color="#06080C" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="capGrad_product02webp" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#0369A1"/>
+          <stop offset="50%" stop-color="#38BDF8"/>
+          <stop offset="100%" stop-color="#075985"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Cap -->
+      <rect x="345" y="160" width="110" height="90" rx="4" fill="url(#capGrad_product02webp)" stroke="#7DD3FC" stroke-width="2"/>
+      <rect x="375" y="250" width="50" height="20" fill="#0B132B" stroke="#7DD3FC" stroke-width="1.5"/>
+
+      <!-- Bottle Body -->
+      <rect x="250" y="270" width="300" height="420" rx="16" fill="url(#glassGrad_product02webp)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+      <rect x="260" y="280" width="280" height="400" rx="12" fill="none" stroke="rgba(56,189,248,0.25)" stroke-width="1"/>
+
+      <!-- Glass reflections -->
+      <line x1="280" y1="300" x2="280" y2="660" stroke="rgba(255,255,255,0.12)" stroke-width="3"/>
+      <line x1="520" y1="300" x2="520" y2="660" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+      <!-- Azure Label Plate -->
+      <rect x="290" y="420" width="220" height="130" rx="4" fill="#060911" stroke="#7DD3FC" stroke-width="1.5"/>
+      <text x="400" y="465" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#7DD3FC" letter-spacing="4">NIAMAL</text>
+      <text x="400" y="495" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#F0F6FC" letter-spacing="2">AMBRE SACRÉ</text>
+      <text x="400" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8" letter-spacing="3">100 ML • MAISON DE LUXE</text>
+    
+    <text x="400" y="740" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" letter-spacing="4">EDITION 2026 • HANDCRAFTED</text>
+  </svg>

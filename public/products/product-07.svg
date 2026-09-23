@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+    <rect width="800" height="800" fill="#0A0E19"/>
+    <radialGradient id="bgGlow_product07webp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E2F1FD" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0A0E19" stop-opacity="0"/>
+    </radialGradient>
+    <rect width="800" height="800" fill="url(#bgGlow_product07webp)"/>
+    <rect x="24" y="24" width="752" height="752" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    
+      <defs>
+        <linearGradient id="leatherGrad_product07webp" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#1E293B"/>
+          <stop offset="100%" stop-color="#080C14"/>
+        </linearGradient>
+      </defs>
+      <rect x="280" y="160" width="240" height="490" rx="38" fill="url(#leatherGrad_product07webp)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+      <rect x="305" y="185" width="95" height="100" rx="20" fill="#0F172A" stroke="#E2F1FD" stroke-width="1.5"/>
+      <circle cx="330" cy="210" r="16" fill="#06080C" stroke="#38BDF8" stroke-width="1.5"/>
+      <circle cx="375" cy="210" r="16" fill="#06080C" stroke="#38BDF8" stroke-width="1.5"/>
+      <circle cx="352" cy="255" r="16" fill="#06080C" stroke="#38BDF8" stroke-width="1.5"/>
+      <text x="400" y="580" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#E2F1FD" letter-spacing="4">NIAMAL</text>
+    
+    <text x="400" y="740" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" letter-spacing="4">EDITION 2026 • HANDCRAFTED</text>
+  </svg>
