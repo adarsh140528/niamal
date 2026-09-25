@@ -25,10 +25,9 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { name: "Philosophy", href: "#philosophy" },
-    { name: "Perfumes", href: "#perfumes" },
-    { name: "Accessories", href: "#accessories" },
-    { name: "Circle", href: "#circle" },
+    { name: "Oud Royalé", href: "#perfumes" },
+    { name: "Floret", href: "#perfumes" },
+    { name: "Haute Parfumerie", href: "#perfumes" },
   ];
 
   const handleNavClick = (href: string) => {
@@ -87,7 +86,7 @@ export default function Header() {
             >
               <ShoppingBag className="w-5 h-5 stroke-[1.5]" />
               <span className="hidden sm:inline text-[11px] uppercase tracking-[0.2em] text-muted group-hover:text-azure-300">
-                Cart
+                Bag
               </span>
               {totalItems > 0 && (
                 <motion.span
@@ -150,7 +149,7 @@ export default function Header() {
                 NIAMAL MAISON DE LUXE
               </span>
               <p className="text-xs text-muted font-sans tracking-wide">
-                Curated luxury for the discerning few.
+                Excellence in Every Sense.
               </p>
             </div>
           </motion.div>

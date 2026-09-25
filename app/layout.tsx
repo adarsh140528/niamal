@@ -6,6 +6,7 @@ import SmoothScroll from "@/components/ui/SmoothScroll";
 import Header from "@/components/navigation/Header";
 import Footer from "@/components/navigation/Footer";
 import CartDrawer from "@/components/cart/CartDrawer";
+import BrandLoader from "@/components/ui/BrandLoader";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -22,23 +23,23 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NIAMAL — Where Luxury Meets Intention | Fine Perfumes & Accessories",
+  title: "NIAMAL — Pure Oil Based Perfumes | Oud Royalé & Floret",
   description:
-    "Curated luxury for the discerning few. Explore NIAMAL fine perfumes including Noir Absolu, Ambre Sacré, and handcrafted Italian leather phone accessories.",
+    "Excellence in Every Sense. Discover NIAMAL pure oil-based perfume editions: Oud Royalé and Floret, crafted with concentrated extracts for enduring depth and permanence.",
   keywords: [
     "NIAMAL",
-    "Noir Absolu",
-    "Luxury Perfume",
-    "Haute Parfumerie",
+    "Oud Royale",
+    "Floret",
+    "Oil Based Perfume",
+    "Pure Oil Parfum",
     "Extrait de Parfum",
-    "Italian Leather iPhone Case",
-    "MagSafe Charger",
-    "Luxury Accessories",
+    "Haute Parfumerie",
+    "Luxury Perfume",
   ],
-  authors: [{ name: "NIAMAL LLP" }],
+  authors: [{ name: "NIAMAL" }],
   openGraph: {
-    title: "NIAMAL — Where Luxury Meets Intention",
-    description: "Curated luxury for the discerning few. Fine perfumes and precision accessories.",
+    title: "NIAMAL — Pure Oil Based Perfumes",
+    description: "Excellence in Every Sense. Discover Oud Royalé & Floret.",
     url: "https://niamal.com",
     siteName: "NIAMAL",
     locale: "en_US",
@@ -58,6 +59,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${plusJakarta.variable} dark`}>
       <body className="bg-background text-foreground antialiased selection:bg-azure-400 selection:text-black">
+        {/* Brand Initial Logo Entrance Loader */}
+        <BrandLoader />
+
         <CartProvider>
           <SmoothScroll>
             {/* Film grain atmospheric overlay */}
@@ -67,9 +71,9 @@ export default function RootLayout({
             <Header />
             
             {/* Page Content */}
-            <main className="relative min-h-screen">
+            <div className="relative min-h-screen">
               {children}
-            </main>
+            </div>
             
             {/* Cart Drawer */}
             <CartDrawer />
